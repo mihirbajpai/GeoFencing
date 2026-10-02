@@ -64,9 +64,3 @@ Requires JDK 21 for Gradle (Android Studio's Gradle JDK setting) and Android SDK
 ```
 
 Install on two or more devices, enter a name on each and allow location and notifications. On one device tap **Admin**, enter the PIN, create a fence around where you are, then take another device outside the circle. The other devices should get the alert within one or two location intervals.
-
-## Known limitations
-
-- Tracking stops if the app is force-stopped or the phone reboots (it keeps running when the app is in the background or the screen is off).
-- On MIUI and similar ROMs, set the app's battery saver to *No restrictions* and enable autostart, otherwise tracking and notifications can be delayed.
-- Firestore rules are open and the admin PIN is hardcoded, as the assessment didn't require auth.

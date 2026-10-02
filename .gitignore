@@ -1,0 +1,21 @@
+# Build output
+build/
+.gradle/
+.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Local machine config (SDK path, Maps API key)
+local.properties
+
+# Firebase credentials
+app/google-services.json
+app/src/main/assets/service-account.json
